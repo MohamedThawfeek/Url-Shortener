@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: rgba(128, 128, 128, 0.63) ;
+    width: 30vw;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+ 
+}
+
+h3{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: cursive;
+    letter-spacing: 2px 0 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+
+.input{
+    width: 20vw;
+    background: whitesmoke;
+    border-radius: 15px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+ 
+   
+}
+
+
+.input input{
+    height:40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    /* padding: 0 15px; */
+    background: transparent;
+}
+
+
+.input .eye{
+    /* margin-left: -40px; */
+    margin-top: 3px;
+}
+
+
+ .button{
+    background: #000 ;
+    color: whitesmoke;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-left: 35px;
+width: 100px;
+    border-radius: 9px;
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+@media(max-width:800px){
+
+    .container{
+   
+        width: 60vw;
+     
+     
+    }
+    .input{
+        width: 40vw;
+   
+     
+       
+    }
+}

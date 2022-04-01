@@ -1,0 +1,32 @@
+.container {
+  margin-top: 20px;
+  background: #ccc9c96e;
+  padding: 30px;
+  width: 80%;
+  margin-left: 30px;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.container h1 {
+  font-family: monospace;
+  text-transform: capitalize;
+  text-shadow: 2px 0 3px rgba(0, 0, 0, 0.6);
+}
+
+.container button {
+  background: yellow;
+  margin-top: 50px;
+  border-radius: 15px;
+  text-transform: capitalize;
+  text-shadow: 2px 0 3px rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
+  font-family: cursive;
+  padding: 10px;
+  color: white;
+}
+
+.container button:hover {
+  background: transparent;
+  color: blue;
+}
